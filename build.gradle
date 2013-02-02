@@ -1,0 +1,11 @@
+apply plugin: 'java'
+
+version = '1.0.0'
+
+task zip(type: Zip) {
+	description='Create zip file for plugin'
+    from 'src'
+    exclude 'src/resources'
+}
+
+defaultTasks = ['clean', 'zip']

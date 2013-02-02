@@ -1,0 +1,4 @@
+.fah-outdent .line td.content {
+    text-indent: -1em;
+    padding: 0 0 0 1.5em !important
+}
