@@ -44,6 +44,6 @@ To enable the above features in the [SyntaxHighlighter Evolved][] plugin, go to 
 * Check the option for word wrap
 * Add 'fah-outdent' - no quotes - as the optional style.
 
-[SyntaxHighlighter] http://alexgorbatchev.com/SyntaxHighlighter/
-[SyntaxHighlighter Evolved] http://wordpress.org/extend/plugins/syntaxhighlighter/
+[SyntaxHighlighter]: http://alexgorbatchev.com/SyntaxHighlighter/
+[SyntaxHighlighter Evolved]: http://wordpress.org/extend/plugins/syntaxhighlighter/
 [crochet syntax]: https://github.com/jaylindquist/FabricArtsHighlighter/blob/master/src/resources/images/crochetSyntax.png
