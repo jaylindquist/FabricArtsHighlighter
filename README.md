@@ -46,4 +46,4 @@ To enable the above features in the [SyntaxHighlighter Evolved][] plugin, go to 
 
 [SyntaxHighlighter]: http://alexgorbatchev.com/SyntaxHighlighter/
 [SyntaxHighlighter Evolved]: http://wordpress.org/extend/plugins/syntaxhighlighter/
-[crochet syntax]: https://github.com/jaylindquist/FabricArtsHighlighter/blob/master/src/resources/images/crochetSyntax.png "Syntax highlighting for crochet patterns"
+[crochet syntax]: https://github.com/jaylindquist/FabricArtsHighlighter/blob/master/src/resources/images/crochetSyntax.png?raw=true "Syntax highlighting for crochet patterns"
