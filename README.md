@@ -34,7 +34,7 @@ Rows 10-13: sc all the way around.  On the last sc of Row 12, change colors to B
 
 The above code will result in the following pattern on a WordPress blog:
 
-![Syntax highlighting for crochet patterns][crochet syntax]
+![alt text][crochet syntax]
 
 ## Recommended usage
 It is recommended to use version 2.x of SyntaxHighlighter and enable word wrap for the best looking patterns. Included in src/css is a CSS file that allows for outdented patterns that wrap to the next line as in the above screenshot. The CSS file include a style named 'fah-outdent' specifically for this purpose.
@@ -46,4 +46,4 @@ To enable the above features in the [SyntaxHighlighter Evolved][] plugin, go to 
 
 [SyntaxHighlighter]: http://alexgorbatchev.com/SyntaxHighlighter/
 [SyntaxHighlighter Evolved]: http://wordpress.org/extend/plugins/syntaxhighlighter/
-[crochet syntax]: https://github.com/jaylindquist/FabricArtsHighlighter/blob/master/src/resources/images/crochetSyntax.png
+[crochet syntax]: https://github.com/jaylindquist/FabricArtsHighlighter/blob/master/src/resources/images/crochetSyntax.png "Syntax highlighting for crochet patterns"
