@@ -15,26 +15,28 @@
 
 	function Brush()
 	{
-		var keywords = 'approx beg bet BL BP BPdc CC ch cont dc dc2tog dec ' + 
-	  					'FL foll FP FPdc FPsc FPtr hdc inc lp lps MC pat pats ' +
-	  					'patt rem rep rnd rnds RS sc sc2tog sk Sl st sp sps st ' +
-	  					'sts tog tr WS yo round rounds';
+		keywords = 'alt approx beg blocking BO cab CC cn  CO cont dec dpn foll g i-cord inc ' +
+					'incl inst k k2tog kfb m MB MC m1 mm mult opp oz p p2tog patt patts pfb pm ' +
+					'psso rem rep rev RS rnd rnds sc SK2P SSK SSP sl  slp st sts tbl tog WS ' +
+					'w&amp;t Wyif Wyib YO';
 
 		var r = SyntaxHighlighter.regexLib;
 
 		this.regexList = [
 			{ regex: /\[|\]|\*/gmi,									css: 'constants'},
-			{ regex: /\([0-9]+\)/gmi, 								css: 'value' },
+			{ regex: /\(|\)/gmi, 			   						css: 'constants' },
 			{ regex: new RegExp(this.getKeywords(keywords), 'gmi'),	css: 'keyword' },
-			{ regex: /ch-[0-9]+/gmi, 								css: 'keyword'},
-			{ regex: /row(s)? [0-9]+( ?- ?[0-9]+)?/gmi,				css: 'color2' }
+			{ regex: /(k|p|m|c|sl)[0-9]+(r|f|b)?/gmi, 				css: 'keyword'},
+			{ regex: /round(s)? [0-9]+( ?- ?[0-9]+)?/gmi,			css: 'color2' },
+			{ regex: /row(s)? [0-9]+( ?- ?[0-9]+)?/gmi,				css: 'color2' },
+			{ regex: /[0-9]+/gmi,				css: 'value' }
 		];
 	};
 
 	Brush.prototype	= new SyntaxHighlighter.Highlighter();
-	Brush.aliases	= ['crochet'];
+	Brush.aliases	= ['knit'];
 
-	SyntaxHighlighter.brushes.Crochet = Brush;
+	SyntaxHighlighter.brushes.Knit = Brush;
 
 	// CommonJS
 	typeof(exports) != 'undefined' ? exports.Brush = Brush : null;
