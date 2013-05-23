@@ -11,9 +11,10 @@ To use with the SyntaxHighlighter library directly, download the appropriate Jav
 To use with WordPress, install the [SyntaxHighlighterEvolved][] plugin and install the Fabric Arts Highlighter plugin from the attahed zip file.
 
 ## Usage
-Once configured, the Fabric Arts Highlighter will add languages for patterns. The currently supported are listed below:
+Once configured, the Fabric Arts Highlighter will add languages for patterns. The currently supported languages are:
 
 * crochet
+* knit
 
 The following example uses the WordPress plugin to create an easy to read crochet pattern:
 
